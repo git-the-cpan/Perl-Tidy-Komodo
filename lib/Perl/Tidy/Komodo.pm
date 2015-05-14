@@ -2,7 +2,7 @@ use strictures;
 
 package Perl::Tidy::Komodo;
 
-our $VERSION = '1.120910'; # VERSION
+our $VERSION = '1.151340'; # VERSION
 
 # ABSTRACT: tidy perl files in Komodo with a project rc
 
@@ -45,6 +45,7 @@ sub _try_set_perltidy_env {
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -53,7 +54,12 @@ Perl::Tidy::Komodo - tidy perl files in Komodo with a project rc
 
 =head1 VERSION
 
-version 1.120910
+version 1.151340
+
+=head1 DESCRIPTION
+
+This file provides the functionality behind a command line script. For
+usage documentation, please see: L<perltidy_ko>.
 
 =head1 METHODS
 
@@ -98,4 +104,3 @@ Works under CC0 do not require attribution. When citing the work, you should
 not imply endorsement by the author.
 
 =cut
-
